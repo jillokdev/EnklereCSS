@@ -14,6 +14,7 @@ a {
     color: #574e6d;
 }
 
+
 /* Changed Background color from #000 #574e6d */
 .btn {
     color: #fff;
@@ -48,7 +49,7 @@ a {
 
 
 .container {
-    max-width: 1600px;
+    max-width: 80%;
     margin: 0 auto;
 }
 
@@ -99,7 +100,7 @@ a {
     top: 0;
     /* Stay at the top */
     right: 0;
-    background-color: #4b586e;
+    background-color: #574e6d;
     /* Black*/
     overflow-x: hidden;
     /* Disable horizontal scroll */
@@ -154,6 +155,25 @@ a {
     font-weight: 100;
 }
 
+.codeblock {
+    width: 60%;
+    margin: 0 auto;
+    font-size: 18px;
+    margin-top: 50px;
+    padding: 20px 15px;
+    border: 1px solid #4b586e;
+    background-color: #4b586e;
+    border-radius: 5px;
+}
+
+.codeblock .link {
+    color: #73f7dd;
+}
+
+.codeblock .code-content {
+    color: #ffdc76;
+}
+
 .content .buttons {
     margin: 100px 0px;
 }
@@ -195,7 +215,6 @@ footer .copyright {
     text-align: center;
 }
 
-
 /* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
 @media screen and (max-height: 450px) {
     .sidenav {
@@ -204,75 +223,6 @@ footer .copyright {
 
     .sidenav a {
         font-size: 18px;
-    }
-}
-
-@media screen and (max-width: 823px) {
-    .container {
-        max-width: 500px;
-    }
-    
-    .content h2 {
-        font-size: 30px;
-    }
-    
-    .btn {
-        display: block;
-        margin-bottom: 25px;
-    }
-    
-    .btn-whi {
-        display: block;
-    }
-    
-    .boxes {
-        margin-top: 150px;
-    }
-
-    .box {
-        float: none;
-        padding: 0px 50px;
-        width: 100%;
-        text-align: center;
-        padding-bottom: 25px;
-    }
-
-    .box i,
-    .box h2 {
-        padding-bottom: 10px;
-        color: #4b586e;
-    }
-
-    .box p {
-        font-size: 18px;
-    }
-    
-    footer {
-        margin: 70px 0px 10px 0px;
-    }
-}
-
-@media screen and (max-width: 450px) {
-    .container {
-        max-width: 300px;
-    }
-    
-    .content h2 {
-        font-size: 25px;
-    }
-    
-    .box p {
-        font-size: 16px;
-    }
-    
-    footer p {
-        font-size: 14px;
-    }
-}
-
-@media screen and (max-width: 1366px) {
-    .container {
-        max-width: 900px;
     }
 }
 
