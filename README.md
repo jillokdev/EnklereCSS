@@ -1,6 +1,6 @@
 # EnklereCSS Framework.
 
-#Unactive project within March 2020!
+# This is currently an inactive project. I'll get back to it.
 
 EnklereCSS is a CSS Framework developed by me
 
